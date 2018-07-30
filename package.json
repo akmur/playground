@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "ws"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "local-web-server": "^2.6.0",
+    "stylelint": "^9.4.0",
+    "stylelint-order": "^0.8.1",
+    "stylelint-scss": "^3.2.0"
+  }
+}

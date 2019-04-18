@@ -11,7 +11,7 @@
     "color-hex-length": "short",
     "color-named": "never",
     "color-no-invalid-hex": true,
-    "color-no-hex": true,
+    "color-no-hex": false,
     "comment-empty-line-before": "always",
     "comment-no-empty": true,
     "declaration-bang-space-after": "never",

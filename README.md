@@ -1,6 +1,6 @@
 # Playground
 
-A starter HTML kit with linters and a web server
+A starter HTML/JS/SASS kit with linters and a web server
 
 Just run npm install to install sass and js linters and a local web server.
 Run "npm run dev" to start the server.

@@ -1,4 +1,4 @@
-# starterHTML
+# Playground
 
 A starter HTML kit with linters and a web server
 

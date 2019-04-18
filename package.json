@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w styles/styles.scss styles/styles.css",
-    "dev": "npm run sass & live-server"
+    "dev": "npm run sass & live-server --host=localhost --port=3000"
   },
   "author": "",
   "license": "ISC",

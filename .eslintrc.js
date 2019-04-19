@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   env: {
-    node: true
+    es6: true
   },
   extends: [
     "eslint:recommended",
@@ -9,6 +9,9 @@ module.exports = {
     "plugin:prettier/recommended"
   ],
   parserOptions: {
-    parser: "babel-eslint"
+    ecmaVersion: 9
+  },
+  rules: {
+    "no-console": 0
   }
 };

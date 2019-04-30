@@ -92,3 +92,4 @@ config.codekit*
 .env.production.local
 
 dist
+.cache

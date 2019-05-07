@@ -13,5 +13,8 @@
     }
   ],
   "eslint.autoFixOnSave": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#4154AF"
+  }
 }

@@ -1,6 +1,6 @@
 # Playground
 
-A starter HTML/JS/SASS kit with linters and Parcel bundler.
+A starter HTML/JS/React/SASS kit with linters and Parcel bundler.
 
 The packages you need in your editor (I use VS Code) are:
 

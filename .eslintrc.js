@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   env: {
-    es6: true
+    browser: true
   },
   extends: [
     'eslint:recommended',
@@ -9,10 +9,13 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   parserOptions: {
-    ecmaVersion: 9
+    ecmaVersion: 9,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   rules: {
     'no-console': 0
-  },
-  sourceType: 'module'
+  }
 }

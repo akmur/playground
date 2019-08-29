@@ -1,7 +1,14 @@
 # Playground
 
-A starter HTML/JS/SASS kit with linters and a web server to be used with VS code.
+A starter HTML/JS/SASS kit with linters and Parcel bundler.
 
-Just run npm install to install sass and js linters and a local web server.
+The packages you need in your editor (I use VS Code) are:
+
+- Prettier
+- stylelint
+- ESlint
+
+Just run npm install to install sass and js linters, React and Parcel.
 Run "npm run dev" to start the server.
-In order to compile sass and use stylelint and standard properly, you need to rely on your text editor's extensions.
+
+In order to compile sass and use stylelint and prettier properly, you need to rely on your text editor's extensions.

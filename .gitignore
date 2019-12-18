@@ -93,3 +93,4 @@ config.codekit*
 
 dist
 .cache
+/.vscode

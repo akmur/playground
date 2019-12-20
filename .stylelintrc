@@ -1,8 +1,10 @@
 {
   "plugins": [
-    "stylelint-order"
+    "stylelint-order",
+    "stylelint-prettier"
   ],
   "rules": {
+    "prettier/prettier": true,
     "block-closing-brace-empty-line-before": "never",
     "block-closing-brace-newline-after": "always-single-line",
     "block-no-empty": true,
@@ -11,6 +13,7 @@
     "color-hex-length": "short",
     "color-named": "never",
     "color-no-invalid-hex": true,
+    "color-no-hex": true,
     "comment-empty-line-before": "always",
     "comment-no-empty": true,
     "declaration-bang-space-after": "never",
@@ -94,11 +97,9 @@
     "selector-attribute-operator-space-after": "never",
     "selector-attribute-operator-space-before": "never",
     "selector-attribute-quotes": "always",
-    "selector-class-pattern": "(u|is|has|js)-?[a-zA-Z0-9]*|([A-Z][a-zA-Z0-9]*(__[a-z0-9][a-zA-Z0-9]*)?(--[a-z0-9][a-zA-Z0-9]*)?)$",
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
     "selector-descendant-combinator-no-non-space": true,
-    "selector-id-pattern": "(u|is|has|js)-?[a-zA-Z0-9]*|([A-Z][a-zA-Z0-9]*(__[a-z0-9][a-zA-Z0-9]*)?(--[a-z0-9][a-zA-Z0-9]*)?)$",
     "selector-list-comma-newline-after": "always",
     "selector-list-comma-newline-before": "never-multi-line",
     "selector-list-comma-space-before": "never",

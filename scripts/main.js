@@ -4,11 +4,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 function App() {
-  return (
-    <div className="App">
-      <h1>React Works :)</h1>
-    </div>
-  )
+  return <div className="App">Works</div>
 }
 
 const rootElement = document.getElementById('app')

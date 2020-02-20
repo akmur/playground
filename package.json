@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel index.html",
-    "http": "http-server -p 2345"
+    "http": "http-server -p 2345",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "stylelint-prettier": "^1.1.2"
   },
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "sass": "^1.25.0"
